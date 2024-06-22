@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--==================== METADATOS ====================-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Menus">
+  <meta name="keywords" content="HTML-CSS-JS">
+  <meta name="author" content="Rocio Cuello">
+  
+  <!--==================== CSS ====================-->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!--==================== TITULO ====================-->
+  <title>Menus | MENÚ DESPLEGABLE </title>
+
+  <!--==================== ICONO DE PESTAÑA ====================-->
+  <link rel="icon" sizes="64x64" href="assets/img/favicon.webp"> 
+
+</head>
+
+<body>
+  <nav class="nav">
+    <ul class="list">
+      <li class="list__item">
+        <div class="list__button">
+          <img src="assets/img/dashboard.svg" alt="" class="list__img">
+          <a href="" class="nav__link">Inicio</a>
+        </div>
+      </li>
+      <li class="list__item list__item--click">
+        <div class="list__button list__button--click">
+          <img src="assets/img/docs.svg" alt="" class="list__img">
+          <a href="" class="nav__link">Servicios</a>
+          <img src="assets/img/arrow.svg" alt="" class="list__arrow">
+        </div>
+        <ul class="list__show">
+          <li class="list__inside">
+            <a href="" class="nav__link nav__link--inside">Link1</a>
+          </li>
+          <li class="list__inside">
+            <a href="" class="nav__link nav__link--inside">Link2</a>
+          </li>
+          <li class="list__inside">
+            <a href="" class="nav__link nav__link--inside">Link3</a>
+          </li>
+        </ul>
+      </li>
+      <li class="list__item">
+        <div class="list__button">
+          <img src="assets/img/stats.svg" alt="" class="list__img">
+          <a href="" class="nav__link">Estadísticas</a>
+        </div>
+      </li>
+      <li class="list__item list__item--click">
+        <div class="list__button list__button--click">
+          <img src="assets/img/bell.svg" alt="" class="list__img">
+          <a href="" class="nav__link">Notificaciones</a>
+          <img src="assets/img/arrow.svg" alt="" class="list__arrow">
+        </div>
+        <ul class="list__show">
+          <li class="list__inside">
+            <a href="" class="nav__link nav__link--inside">Link1</a>
+          </li>
+          <li class="list__inside">
+            <a href="" class="nav__link nav__link--inside">Link2</a>
+          </li>
+          <li class="list__inside">
+            <a href="" class="nav__link nav__link--inside">Link3</a>
+          </li>
+        </ul>
+      </li>
+      <li class="list__item">
+        <div class="list__button">
+          <img src="assets/img/message.svg" alt="" class="list__img">
+          <a href="" class="nav__link">Contacto</a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+  <!--==================== script ====================-->
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
